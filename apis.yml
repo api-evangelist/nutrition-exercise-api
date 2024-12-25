@@ -1,4 +1,3 @@
-
 name: Nutrition & Exercise API
 description: >-
   The Dietagram Nutrition API is designed to simplify the integration of your
@@ -22,7 +21,6 @@ apis:
       database, you can rely on Dietagram for high-quality source data.
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     humanURL: http://dietagram.com/api-page
-    overlays: []
 maintainers:
   - FN: API Evangelist
     email: info@apievangelist.com
