@@ -1,29 +1,39 @@
+aid: nutrition-exercise-api
 name: Nutrition & Exercise API
 description: >-
   The Dietagram Nutrition API is designed to simplify the integration of your
-  application with Dietagram extensive food database and nutritional standards.
+  application with Dietagram's extensive food database and nutritional standards.
   Rather than developing and maintaining your own nutrient database, you can
   rely on Dietagram for high-quality source data.
-image: >-
-  https://kinlane-productions2.s3.amazonaws.com/apis-json-icons/nutrition-exercise-api.png
-url: https://example.com/apis/nutrition-exercise-api.yml
-created: 2024/3/30
-modified: 2024/3/30
-specificationVersion: '0.16'
+type: Index
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 tags:
-  - Bookmarks
+  - Nutrition
+  - Exercise
+  - Food
+  - Health
+url: >-
+  https://raw.githubusercontent.com/api-evangelist/nutrition-exercise-api/refs/heads/main/apis.yml
+created: '2024-03-30'
+modified: '2026-03-16'
+specificationVersion: '0.19'
 apis:
-  - name: Nutrition & Exercise API
+  - aid: nutrition-exercise-api:dietagram
+    name: Dietagram Nutrition API
     description: >-
-      The Dietagram Nutrition API is designed to simplify the integration of
-      your application with Dietagram extensive food database and nutritional
-      standards. Rather than developing and maintaining your own nutrient
-      database, you can rely on Dietagram for high-quality source data.
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+      Provides access to Dietagram's extensive food database and nutritional
+      standards for integrating nutrition data into applications.
     humanURL: http://dietagram.com/api-page
+    tags:
+      - Nutrition
+      - Food
+      - Database
+    properties:
+      - type: Documentation
+        url: http://dietagram.com/api-page
+common:
+  - type: Website
+    url: http://dietagram.com/
 maintainers:
-  - FN: API Evangelist
-    email: info@apievangelist.com
-overlays:
-  - type: APIs.io Search
-    url: overlays/apis-io-search.yml
+  - FN: Kin Lane
+    email: kin@apievangelist.com
