@@ -8,10 +8,10 @@ description: >-
 type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 tags:
-  - Nutrition
   - Exercise
   - Food
   - Health
+  - Nutrition
 url: >-
   https://raw.githubusercontent.com/api-evangelist/nutrition-exercise-api/refs/heads/main/apis.yml
 created: '2024-03-30'
@@ -25,9 +25,9 @@ apis:
       standards for integrating nutrition data into applications.
     humanURL: http://dietagram.com/api-page
     tags:
-      - Nutrition
-      - Food
       - Database
+      - Food
+      - Nutrition
     properties:
       - type: Documentation
         url: http://dietagram.com/api-page
